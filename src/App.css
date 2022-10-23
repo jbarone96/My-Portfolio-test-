@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url('./Fonts/Rubik-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: local('Roboto Mono'), url('./Fonts/RobotoMono-VariableFont_wght.ttf') format('truetype') ;
+}
+
+.App {
+  text-align: center;
+}
+
+.nav-link {
+  margin-right: 25px;
+}
+
+.portfolio-pieces {
+  padding: 10px;
+  font-family: Rubik;
+  font-variant: small-caps;
+  color: aliceblue;
+}
+
+.resume {
+  padding: 10px;
+  font-family: Rubik;
+  font-variant: small-caps;
+  color: aliceblue;
+}
+
+.about {
+  padding: 10px;
+  font-family: Rubik;
+  font-variant: small-caps;
+  color: aliceblue;
+}
+
+.contact {
+  padding: 10px;
+  font-family: Rubik;
+  font-variant: small-caps;
+  color: aliceblue;
+}
+
+.list-item-title {
+  font-weight: 700;
+  font-family: Rubik;
+  font-variant: small-caps;
+}
+
+.list-item {
+  width: 250px;
+  height: 50px;
+  font-family: Rubik;
+}
+
+.item {
+  font-family: Rubik;
+}
+
+.intro {
+  font-size: 72px;
+  font-family: Rubik;
+  color: aliceblue;
+}
+
+.intro:nth-child(2) {
+  font-size: 48px;
+}
+
+.intro:nth-child(3) {
+  font-size: 48px;
+  font-family: Roboto Mono;
+}
+
+.list-group {
+  width: 350px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.hello-section {
+  text-align: justify;
+  padding: 150px 0px;
+}
+
+.paragraph {
+  /* display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto; */
+  font-family: Rubik;
+  color: aliceblue;
+}
+
+.text {
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+  font-family: Rubik;
+  color: aliceblue;
+}
+
+.text-link {
+  display: flex;
+  padding: 5px;
+  margin-left: 415px;
+  font-family: Rubik;
+  color: aliceblue;
+}
+
+.text-title {
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+  font-family: Rubik;
+  font-variant: small-caps;
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.title-ed, h6 {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  font-family: Rubik;
+  font-weight: 700;
+  color: aliceblue;
+  padding-top: -5px;
+}
+
+.title-ed, h5:nth-child(2) {
+  font-family: Rubik;
+  font-variant: small-caps;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  color: aliceblue;
+}
+
+.text-ed {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  font-family: Rubik;
+  color: aliceblue;
+}
+
+.link {
+  display: flex;
+}
+
+.swiper {
+  height: 400px;
+  width: 800px;
+  margin-top: 30px;  
+  justify-content: left;
+  box-shadow: 0px 0px 20px 5px rgba(240, 248, 255, 0.626);
+  border-radius: 10px;
+}
+
+.swiper-slide {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.swiper-image {
+  height: 400px;
+  width: 800px;
+  border-radius: 10px;
+ }
+
+ .about-card {
+  height: 800px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px 5px rgba(240, 248, 255, 0.626);
+  background-color: aliceblue!important;
+  padding: 0px 40px;
+ }
+
+ .about-paragraph {
+  color: black;
+  font-family: Rubik;
+ }
+
+ .contact-card {
+  height: 800px;
+  width: 800px;
+  margin: auto;
+  margin-top: 30px;
+  box-shadow: 0px 0px 20px 5px rgba(240, 248, 255, 0.626);
+  background-color: aliceblue!important;
+}
+
+ .contact-info {
+  color: black;
+  font-family: Rubik;
+ }
+
+ .resume-card {
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px 5px rgba(240, 248, 255, 0.626);
+    background-color: aliceblue!important;
+    padding: 0px 60px;
+ }
+
+.resume-paragraph {
+  color: black;
+  font-family: Rubik;
+}
+
+.languages {
+  height: 50px;
+  width: 50px;
+  margin: 0px 10px;
+}
+
+.languages:nth-child(2) {
+  height: 58px;
+  width: 60px;
+}
+
+.languages:nth-child(3) {
+  width: 40px;
+}
+
+.languages:nth-child(5) {
+  width: 75px;
+}
+
+.languages:nth-child(6) {
+  width: 130px;
+  height: 40px;
+}
+
+b {
+  padding-right: 5px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(
+    rgb(17, 7, 70) 100%,
+    rgba(8, 5, 19) 100%
+  );
+}
+
+#tsparticles {
+  position: fixed !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+}
+
+.wave {
+  animation-name: wave-animation; 
+  animation-duration: 2.5s; 
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%; 
+  display: inline-block;
+  margin-left: 10px;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } 
+  100% {
+    transform: rotate(0deg);
+  }
+}
