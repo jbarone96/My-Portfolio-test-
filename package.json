@@ -17,6 +17,7 @@
     "react-tsparticles": "^2.3.3",
     "swiper": "^8.4.4",
     "tsparticles": "^2.3.4",
+    "tsparticles-engine": "^2.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
